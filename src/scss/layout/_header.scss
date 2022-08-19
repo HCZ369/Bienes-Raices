@@ -1,17 +1,18 @@
 .no-webp .inicio {
-	background-image: url(../../../build/img/header.jpg);
-	max-width: 100%;
-} //snippet cuando no soporta webp
+	background-image: url(../img/header.jpg);
+}
 .webp .inicio {
-	background-image: url(../../../build/img/header.webp);
-	max-width: 100%;
-} // cuando si soporta el formato webp
+	background-image: url(../img/header.webp);
+}
+
 .header {
 	background-color: $grisOscuro;
 	padding: 1rem 0 3rem 0;
+
 	&.inicio {
 		background-position: center center;
 		background-size: cover;
+
 		@include tablet {
 			min-height: 70rem;
 		}
@@ -32,7 +33,7 @@
 	h1 {
 		text-align: left;
 		color: $blanco;
-		font-weight: 700;
+		font-weight: $bold;
 		line-height: 2;
 		max-width: 60rem;
 	}
