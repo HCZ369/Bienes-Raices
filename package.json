@@ -1,12 +1,12 @@
 {
 	"name": "bienesraices",
 	"version": "1.0.0",
-	"description": "Curso Desarrollo Web Completo",
+	"description": "Proyecto bienes raices",
 	"main": "gulpfile.js",
 	"scripts": {
-		"dev": "gulp"
+		"sass": "sass --watch src/scss:build/css"
 	},
-	"author": "Juan De La Torre",
+	"author": "Hugo Carreras",
 	"license": "ISC",
 	"devDependencies": {
 		"cssnano": "^5.1.0",
