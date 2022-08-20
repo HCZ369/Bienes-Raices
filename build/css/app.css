@@ -398,6 +398,7 @@ h4 {
   margin-top: 2.5rem;
   display: inline-block;
   border: none;
+  border-radius: 0.8rem;
 }
 .boton-amarillo:hover {
   background-color: #c77808;
@@ -414,6 +415,7 @@ h4 {
   margin-top: 2.5rem;
   display: block;
   border: none;
+  border-radius: 0.8rem;
 }
 .boton-amarillo-block:hover {
   background-color: #c77808;
@@ -430,6 +432,7 @@ h4 {
   margin-top: 2.5rem;
   display: inline-block;
   border: none;
+  border-radius: 0.8rem;
 }
 .boton-verde:hover {
   background-color: #619800;
@@ -509,7 +512,8 @@ h4 {
 .anuncio .contenido-anuncio {
   padding: 2rem;
 }
-.anuncio h3, .anuncio p {
+.anuncio h3,
+.anuncio p {
   margin: 0;
 }
 
@@ -517,6 +521,7 @@ h4 {
   color: #71b100;
   font-weight: 700;
   font-size: 3rem;
+  text-align: center;
 }
 
 .iconos-caracteristicas {
@@ -528,6 +533,7 @@ h4 {
 .iconos-caracteristicas li {
   flex: 1;
   display: flex;
+  justify-content: flex-end;
 }
 .iconos-caracteristicas li img {
   flex: 0 0 3rem;
