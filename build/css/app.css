@@ -650,4 +650,70 @@ h4 {
   font-weight: 900;
 }
 
+.no-webp .imagen-contacto {
+  background-image: url("../img/encuentra.jpg");
+}
+
+.webp .imagen-contacto {
+  background-image: url("../img/encuentra.webp");
+}
+
+.imagen-contacto {
+  background-position: center center;
+  background-size: cover;
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imagen-contacto h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+.imagen-contacto p {
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .seccion-inferior {
+    display: grid;
+    grid-template-columns: 66.66% 33.33%;
+    column-gap: 2rem;
+  }
+}
+.entrada-blog {
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .entrada-blog {
+    display: grid;
+    grid-template-columns: 33.33% 66.66%;
+    column-gap: 2rem;
+  }
+}
+.entrada-blog::last-of-type {
+  margin-bottom: 0;
+}
+
+.texto-entrada a {
+  color: #000000;
+}
+.texto-entrada h4 {
+  margin: 0;
+  line-height: 1.4;
+}
+.texto-entrada h4::after {
+  content: "";
+  display: block;
+  width: 15rem;
+  height: 0.3rem;
+  background-color: #71b100;
+  margin-top: 0.5rem;
+}
+.texto-entrada span {
+  color: #e08709;
+}
+
 /*# sourceMappingURL=app.css.map */
