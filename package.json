@@ -2,7 +2,7 @@
 	"name": "bienesraices",
 	"version": "1.0.0",
 	"description": "Proyecto bienes raices",
-	"main": "gulpfile.js",
+	"main": "index.js",
 	"scripts": {
 		"sass": "sass --watch src/scss:build/css"
 	},

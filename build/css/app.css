@@ -440,6 +440,33 @@ h4 {
   cursor: pointer;
 }
 
+.dark-mode {
+  background-color: #1a1a1a;
+}
+.dark-mode p {
+  color: #ffffff;
+}
+.dark-mode a,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4 {
+  color: #e1e1e1;
+}
+.dark-mode .anuncio {
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+.dark-mode .anuncio .precio {
+  color: #71b100;
+}
+.dark-mode .anuncio .icono {
+  filter: invert(100%);
+}
+.dark-mode .texto-nosotros blockquote {
+  color: #ffffff;
+}
+
 /** UI **/
 .no-webp .inicio {
   background-image: url(../img/header.jpg);
@@ -452,6 +479,10 @@ h4 {
 .header {
   background-color: #333333;
   padding: 1rem 0 3rem 0;
+}
+.header img {
+  width: 30rem;
+  height: auto;
 }
 .header.inicio {
   background-position: center center;
@@ -511,8 +542,7 @@ h4 {
 }
 .derecha .dark-mode-boton {
   width: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0 2rem 3rem;
   filter: invert(100%);
 }
 .derecha .dark-mode-boton:hover {
@@ -520,7 +550,7 @@ h4 {
 }
 @media (min-width: 768px) {
   .derecha .dark-mode-boton {
-    margin-top: 0;
+    margin: 0 2rem 0 0;
   }
 }
 
@@ -534,7 +564,7 @@ h4 {
   .barra {
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
   }
 }
 
@@ -562,7 +592,7 @@ h4 {
 @media (min-width: 768px) {
   .navegacion a {
     margin-right: 2rem;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   .navegacion a:last-of-type {
     margin-right: 0;
@@ -801,7 +831,7 @@ h4 {
 .texto-nosotros blockquote {
   font-weight: 900;
   font-size: 2.2rem;
-  margin: 0;
+  margin: 3rem 0 0 0;
   padding-left: 1rem 0 3rem 0;
 }
 
