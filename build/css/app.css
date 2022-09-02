@@ -398,7 +398,7 @@ h4 {
   margin-top: 2.5rem;
   display: inline-block;
   border: none;
-  border-radius: 0.8rem;
+  border-radius: 0.3rem;
 }
 .boton-amarillo:hover {
   background-color: #c77808;
@@ -415,7 +415,7 @@ h4 {
   margin-top: 2.5rem;
   display: block;
   border: none;
-  border-radius: 0.8rem;
+  border-radius: 0.3rem;
 }
 .boton-amarillo-block:hover {
   background-color: #c77808;
@@ -432,8 +432,7 @@ h4 {
   margin-top: 2.5rem;
   display: inline-block;
   border: none;
-  border-radius: 0.8rem;
-  margin-top: 0;
+  border-radius: 0.3rem;
 }
 .boton-verde:hover {
   background-color: #619800;
@@ -453,18 +452,33 @@ h4 {
 .dark-mode h4 {
   color: #e1e1e1;
 }
-.dark-mode .anuncio {
+.dark-mode .anuncio,
+.dark-mode .resumen-propiedad {
   background-color: #333333;
   border: 1px solid #333333;
 }
-.dark-mode .anuncio .precio {
+.dark-mode .anuncio .precio,
+.dark-mode .resumen-propiedad .precio {
   color: #71b100;
 }
-.dark-mode .anuncio .icono {
+.dark-mode .anuncio .icono,
+.dark-mode .resumen-propiedad .icono {
   filter: invert(100%);
 }
 .dark-mode .texto-nosotros blockquote {
   color: #ffffff;
+}
+.dark-mode .formulario label,
+.dark-mode .formulario legend,
+.dark-mode .formulario p {
+  color: #e1e1e1;
+}
+.dark-mode .formulario input:not([type=submit]),
+.dark-mode .formulario textarea,
+.dark-mode .formulario select {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #333333;
 }
 
 /** UI **/
@@ -786,7 +800,7 @@ h4 {
   margin: 2rem 0 0 0;
 }
 .formulario legend {
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: .formulario legend grisOscuro;
 }
 .formulario label {

@@ -12,14 +12,21 @@
 			<div class="contenedor contenido-header">
 				<div class="barra">
 					<a href="/">
+						<!--Esta barra invertida es una forma de referir el homepage-->
 						<img src="build/img/logo.svg" alt="logotipo de bienes raices" />
 					</a>
-					<nav class="navegacion">
-						<a href="nosotros.html">Nosotros</a>
-						<a href="anuncios.html">Anuncios</a>
-						<a href="blog.html">Blog</a>
-						<a href="contacto.html">Contacto</a>
-					</nav>
+					<div class="mobile-menu">
+						<img src="build/img/barras.svg" alt="icono menu responsive" />
+					</div>
+					<div class="derecha">
+						<nav class="navegacion">
+							<img class="dark-mode-boton" src="build/img/dark-mode.svg" />
+							<a href="nosotros.html">Nosotros</a>
+							<a href="anuncios.html">Anuncios</a>
+							<a href="blog.html">Blog</a>
+							<a href="contacto.html">Contacto</a>
+						</nav>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -73,20 +80,14 @@
 		</main>
 		<footer class="footer seccion">
 			<div class="contenedor contenedor-footer">
-				<div class="mobile-menu">
-					<img src="build/img/barras.svg" alt="icono menu responsive" />
-				</div>
-				<div class="derecha">
-					<nav class="navegacion">
-						<img class="dark-mode-boton" src="build/img/dark-mode.svg" />
-						<a href="nosotros.html">Nosotros</a>
-						<a href="anuncios.html">Anuncios</a>
-						<a href="blog.html">Blog</a>
-						<a href="contacto.html">Contacto</a>
-					</nav>
-				</div>
+				<nav class="navegacion">
+					<a href="nosotros.html">Nosotros</a>
+					<a href="anuncios.html">Anuncios</a>
+					<a href="blog.html">Blog</a>
+					<a href="contacto.html">Contacto</a>
+				</nav>
 			</div>
-			<p>Todos los derechos reservados - Hugo Carreras &copy;</p>
+			<p class="copyright">Todos los derechos reservados - Hugo Carreras &copy;</p>
 		</footer>
 		<script src="build/js/bundle.min.js"></script>
 		<script src="/src/js/app.js"></script>
