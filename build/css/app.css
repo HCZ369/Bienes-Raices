@@ -539,7 +539,8 @@ h4 {
   opacity: 1;
   height: auto;
 }
-.footer .copyright {
+.footer .copyright,
+.footer p {
   color: #ffffff;
   text-align: center;
 }

@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Bienes Raices</title>
-		<link rel="stylesheet" href="build/css/app.css" />
-	</head>
-	<body>
-		<header class="header">
-			<div class="contenedor contenido-header">
-				<div class="barra">
-					<a href="/">
-						<img src="build/img/logo.svg" alt="logotipo de bienes raices" />
-					</a>
-					<div class="mobile-menu">
-						<img src="build/img/barras.svg" alt="icono menu responsive" />
-					</div>
-					<div class="derecha">
-						<nav class="navegacion">
-							<img class="dark-mode-boton" src="build/img/dark-mode.svg" />
-							<a href="nosotros.html">Nosotros</a>
-							<a href="anuncios.html">Anuncios</a>
-							<a href="blog.html">Blog</a>
-							<a href="contacto.html">Contacto</a>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</header>
+<?php include "includes/templates/header.php"; ?>
 
 		<main class="contenedor seccion contenido-centrado">
 			<h1>Nuestro Blog</h1>
@@ -42,7 +12,7 @@
 				</div>
 
 				<div class="texto-entrada">
-					<a href="entrada.html">
+					<a href="entrada.php">
 						<h4>Terraza en el techo de tu casa</h4>
 						<p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span></p>
 
@@ -61,7 +31,7 @@
 				</div>
 
 				<div class="texto-entrada">
-					<a href="entrada.html">
+					<a href="entrada.php">
 						<h4>Guía para la decoración de tu hogar</h4>
 						<p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span></p>
 
@@ -79,7 +49,7 @@
 				</div>
 
 				<div class="texto-entrada">
-					<a href="entrada.html">
+					<a href="entrada.php">
 						<h4>Terraza en el techo de tu casa</h4>
 						<p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span></p>
 
@@ -98,7 +68,7 @@
 				</div>
 
 				<div class="texto-entrada">
-					<a href="entrada.html">
+					<a href="entrada.php">
 						<h4>Guía para la decoración de tu hogar</h4>
 						<p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span></p>
 
@@ -107,18 +77,6 @@
 				</div>
 			</article>
 		</main>
-		<footer class="footer seccion">
-			<div class="contenedor contenedor-footer">
-				<nav class="navegacion">
-					<a href="nosotros.html">Nosotros</a>
-					<a href="anuncios.html">Anuncios</a>
-					<a href="blog.html">Blog</a>
-					<a href="contacto.html">Contacto</a>
-				</nav>
-			</div>
-			<p>Todos los derechos reservados - Hugo Carreras &copy;</p>
-		</footer>
-		<script src="build/js/bundle.min.js"></script>
-		<script src="/src/js/app.js"></script>
-	</body>
-</html>
+<?php 
+include "includes/templates/footer.php"; 
+?>
