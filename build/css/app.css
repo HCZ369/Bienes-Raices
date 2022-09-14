@@ -850,4 +850,15 @@ h4 {
   padding-left: 1rem 0 3rem 0;
 }
 
+.alerta {
+  padding: 0.5rem;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.alerta.error {
+  background-color: rgb(168, 0, 0);
+}
+
 /*# sourceMappingURL=app.css.map */
